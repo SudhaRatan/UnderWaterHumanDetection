@@ -30,9 +30,10 @@
 .content > img {
   display: none;
   width: 100%;
-  max-width: 720px;
-  max-height: 500px;
-  border-radius: 10px;
+  height: 100%;
+  /* max-width: 720px;
+  max-height: 500px; */
+  /* border-radius: 10px; */
 }
 
 .content > video {

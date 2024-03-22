@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Img1 from "/images/1.avif";
-import Img2 from "/images/2.jpg";
-import Img3 from "/images/3.jpg";
+import Img1 from "/images/1.png";
+import Img2 from "/images/2.png";
+import Img3 from "/images/3.png";
 import { Link } from "react-router-dom";
 
 function Landing() {

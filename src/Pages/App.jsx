@@ -48,7 +48,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App pt-[60px]">
       {loading.loading && <Loader>Loading model... {(loading.progress * 100).toFixed(2)}%</Loader>}
       <div className="header">
         <h1 className="text-3xl font-semibold text-[#efefef]">YOLOv8 Live Detection</h1>
