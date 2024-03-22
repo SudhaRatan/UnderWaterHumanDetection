@@ -11,7 +11,7 @@ function Landing() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   useEffect(() => {
-    setInterval(() => {
+    setTimeout(() => {
       if (selectedIndex === totalImages) {
         setSelectedIndex(0);
       } else {
