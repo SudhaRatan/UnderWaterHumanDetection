@@ -36,7 +36,7 @@ function Landing() {
         </div>
         <div className="md:flex-1"></div>
       </div>
-      <div className="md:flex-[2] flex-1 h-full md:h-[100vh] md:overflow-y-hidden relative">
+      <div className="md:flex-[2] flex-1 h-full md:h-[100vh] md:overflow-y-hidden relative"  style={{animation:"fadeIn 3s"}}>
         {images.map((item, index) => {
           return (
             <img
