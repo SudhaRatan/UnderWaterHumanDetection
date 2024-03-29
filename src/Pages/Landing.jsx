@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Img1 from "/images/1.png";
-import Img2 from "/images/2.png";
-import Img3 from "/images/3.png";
+import Img2 from "/images/1_1.png";
+import Img3 from "/images/2_1.png";
+import Img1 from "/images/3_1.png";
 import { Link } from "react-router-dom";
 
 function Landing() {
@@ -25,7 +25,7 @@ function Landing() {
       <div className="md:flex-[3] flex flex-col">
         <div className="md:flex-1"></div>
         <div className="flex-col flex gap-5 items-start">
-          <h1 className="md:text-6xl text-4xl">Under water human detection</h1>
+          <h1 className="md:text-6xl text-4xl">Under water object detection</h1>
           <div className="text-xl">An ML project by Ratan</div>
           <Link
             to={"model"}
