@@ -1,0 +1,18 @@
+description: Ultralytics best_all model trained on /content/parent_2/data.yaml
+author: Ultralytics
+date: '2024-03-29T18:25:19.313198'
+version: 8.1.37
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: ship
+  1: submarine
+  2: fish
+  3: human
+  4: Trash
