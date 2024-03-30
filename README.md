@@ -1,1 +1,1 @@
-# Under water human Detection using YOLOv8
+# Under water object Detection using YOLOv8
